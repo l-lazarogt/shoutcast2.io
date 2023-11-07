@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="es-MX">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+
+
+<link href="https://estereosonica.000webhostapp.com/sonicaturadio/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+<link href="https://estereosonica.000webhostapp.com/sonicaturadio/assets/css/style486a.css?v=327" rel="stylesheet">
+
+
+<style type="text/css">
+#fondo {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://i.postimg.cc/NMpb6xC1/Application-background-min.png'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la URL de tu imagen */
+  background-size: cover; /* La imagen se ajustará al tamaño de la ventana y cubrirá todo el fondo */
+  background-position: center; /* La imagen se centrará horizontal y verticalmente */
+  position: relative;
+}
+
+</style>
+
+<link rel="stylesheet" media="screen" href="https://estereosonica.000webhostapp.com/sonicaturadio/assets/css/styles.css">
+
+
+
+<script src="https://estereosonica.000webhostapp.com/sonicaturadio/modern-ticker/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+</ul>
+</nav>
+</header>
+<section id="fondo">
+<div id="caixa">
+<div id="topo-player">
+<div id="player"></div>
+</div>
+<div id="rodape">
+<div class="banners">
+<div class="titulo-banners">
+<h1 style="padding-bottom: 4px;">Alta Definición</h1>
+</div>
+<div id="carouselSite" class="carousel-fade" data-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active" style="display: flex; flex-direction: row; justify-content: center;">
+<a href="#">
+<img src="https://estereosonica.000webhostapp.com/sonicaturadio/assets/img/preloader.svg" class="img-fluid d-block">
+</a>
+ </div>
+<div>
+<div class="carousel-item" style="max-width: 728px !important; max-height: 90px !important;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright1">
+&copy; <span id="year"></span> | STREAMING PROFESIONAL <a href="https://bit.ly/LazaroGt" target="_blank"><a>LAZARO</a>
+</div>
+</div>
+</div>
+<script src="https://l-lazarogt.github.io/widgets.io/New/lunaradio.js"></script>
+<script>
+$("#player").lunaradio({
+token: "",
+userinterface: "big",
+	
+	fontcolor: "#FFFFFF",
+	hightlightcolor: "#00FFFF",
+	fontname: "Saira Condensed",
+	googlefont: "Saira+Condensed:wght@100",
+	fontratio: "0.3",
+	radioname: "La Original Voz Del Hogar",
+	scroll: "true",
+	coverimage: "https://i.postimg.cc/ryfkkTn0/20230310-222510-0000.png",
+	usevisualizer: "fake",
+	coverstyle: "animated",
+	visualizertype: "6",
+	multicolorvisualizer: "true",
+    color1: "#03a2ff",
+    color2: "#ffffff",
+    color3: "#03a2ff",
+    color4: "#ffffff",
+	itunestoken: "1000lIPN",
+	metadatatechnic: "ownmetadataurl",
+ownmetadataurl: "https://status.rcast.net/70495",
+streamurl: "https://stream.rcast.net/70495", 
+streamtype: "shoutcast2",
+	icecastmountpoint: "/radio.mp3",
+	radionomyid: "",
+	radionomyapikey: "",
+	radiozenoid: "",
+	radiojarid: "",
+	radiocoid: "",
+	shoutcastpath: "/stream",
+	shoutcastid: "1",
+	streamsuffix: "",
+	metadatainterval: "30000",
+	volume: "100",
+	debug: "false",
+	usestreamcorsproxy: "false", 
+	corsproxy: "https://corsradio.herokuapp.com/index.php?q=",
+	autoplay:"true",
+});
+</script>
+</html>
