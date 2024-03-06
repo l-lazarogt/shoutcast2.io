@@ -6,7 +6,7 @@ const RADIO_NAME = 'La Original Voz Del Hogar';
 var API_SERVICE = 'SPOTIFY';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'https://stream-150.zeno.fm/8q9rm5nwpfhvv?zs=gJTPgRGET1ipxFO-J2Bqkw';
+const URL_STREAMING = '';
 
 
 //API URL / if you use MEDIA CP, CHANGE THIS TO : https://api.streamafrica.net/metadata/mediacp.php?url='+MEDIACP_JSON_URL
