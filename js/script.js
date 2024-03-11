@@ -10,7 +10,7 @@ const URL_STREAMING = '';
 
 
 //API URL / if you use MEDIA CP, CHANGE THIS TO : https://api.streamafrica.net/metadata/mediacp.php?url='+MEDIACP_JSON_URL
-const API_URL = 'https://api.streamafrica.net/metadata/index.php?z='+URL_STREAMING
+const API_URL = 'https://zenoplay.zenomedia.com/api/zenofm/nowplaying/'+ZENO_ID
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
 const API_KEY = "18fe07917957c289983464588aabddfb";
@@ -169,7 +169,7 @@ function Page() {
                 }
             }
         }
-        xhttp.open('GET', 'https://api.streamafrica.net/new.search.php?query=' + artist + ' ' + song + '&service=' + API_SERVICE.toLowerCase());
+        xhttp.open('GET', 'https://itunes.apple.com/search?term=' + artist + ' ' + song + '&service=' + API_SERVICE.toLowerCase());
         xhttp.send();
     }
 
@@ -217,7 +217,7 @@ function Page() {
                 document.getElementsByClassName('lyrics')[0].removeAttribute('data-toggle');
             }
         }
-        xhttp.open('GET', 'https://api.vagalume.com.br/search.php?apikey=' + API_KEY + '&art=' + currentArtist + '&mus=' + currentSong.toLowerCase(), true);
+        xhttp.open('GET', 'https://itunes.apple.com/search?term=' + API_KEY + '&art=' + currentArtist + '&mus=' + currentSong.toLowerCase(), true);
         xhttp.send()
     }
 }
