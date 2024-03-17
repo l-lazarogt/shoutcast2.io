@@ -36,54 +36,52 @@
 
 <script>
 jQuery(document).ready(function($) {
-	$("#lunaradio").lunaradio({
-		token: "",
-		userinterface: "small",
-		backgroundcolor: "#38B6FF",
-		fontcolor: "#ffffff",
-		hightlightcolor: "#38B6FF",
-		fontname: "Varela Round",
-		googlefont: "Varela+Round",
-		fontratio: "0.5",
-		radioname: "97.9 FM",
-		scroll: "true",
-		coverimage: "https://i.postimg.cc/tRkfYyN6/LA-ORIGINAL-VOZ-DEL-HOGAR.png",
-		onlycoverimage: "false",
-		coverstyle: "square",
-		usevisualizer: "fake",
-		visualizertype: "3",
-		multicolorvisualizer: "true",
-		color1: "#000000",
-    color2: "#000000",
-    color3: "#000000",
-    color4: "#000000",
-		visualizeropacity: "0.5",
-		itunestoken: "1000lIPN",
-		metadatatechnic: "ownmetadataurl",
-		ownmetadataurl: "https://status.rcast.net/70495",
-		streamurl: "https://stream-153.zeno.fm/8q9rm5nwpfhvv?zs=Z8FBmgB7Q3mdH99zY6aPIg",
-		streamtype: "icecast",
-		icecastmountpoint: "/stream",
-		radionomyid: "",
-		radiozenoid: "", 
-		radionomyapikey: "",
-		radiojarid: "",
-		radiocoid: "",
-		shoutcastpath: "/stream",
-		shoutcastid: "1",
-		streamsuffix: "",
-		metadatainterval: "20000",
-		volume: "100",
-		debug: "false",
-		autoplay: "false",
-		displayliveicon: "true",
-		displayvisualizericon: "true",
-	usestreamcorsproxy: "false", 
-	corsproxy: "",
-	});
-});
-</script>				
-
-
+	 $("#lunaradio").lunaradio({
+token: "",
+userinterface: "small", //big o small
+backgroundcolor: "",
+fontcolor: "#FFFFFF",
+hightlightcolor: "#00FFFF", 
+fontname: "Saira Condensed",
+googlefont: "Saira Condensed:wght@100", 
+fontratio: "0.4", 
+radioname: "La Original Voz Del Hogar", //nombre de radio
+scroll: "true",
+autoplay: "true", 
+coverimage: "https://i.postimg.cc/tRkfYyN6/LA-ORIGINAL-VOZ-DEL-HOGAR.png",
+onlycoverimage: "false", 
+coverstyle: "animated",
+usevisualizer: "fake", 
+visualizertype: "6", 
+multicolorvisualizer: "true",
+color1: "f6f6f6",
+color2: "323edd",
+color3: "fc5404",
+color4: "#fa225b",
+usestreamcorsproxy: "false",
+corsproxy: "https://evsportugal.herokuapp.com/?q=", 
+metadatatechnic: "ownmetadataurl",
+ownmetadataurl: "https://status.rcast.net/70495",
+streamurl: "https://stream-153.zeno.fm/8q9rm5nwpfhvv?zs=Z8FBmgB7Q3mdH99zY6aPIg", 
+streamtype: "icecast2",
+icecastmountpoint: "/live",
+shoutcastpath: "/stream",
+streamid: "1", 
+streamsuffix: "", 
+radionomyid: "", 
+radionomyapikey: "",
+radiozenoid: "", 
+radiojarid: "",  
+radiocoid:"",
+itunestoken: "",
+metadatainterval: "3000", 
+displayliveicon: "true",
+volume: "100",
+debug: "true",
+     });
+     });
+</script>
+	</div>
 </body>
+
 </html>
